@@ -1,10 +1,12 @@
-Element.prototype.appendAfter = function (element) {
+Element.prototype.appendAfter = function (element)
+{
     element.parentNode.insertBefore(this, element.nextSibling)
 }
 
 function noop() {}
 
-function _createModalFooter(buttons = []) {
+function _createModalFooter(buttons = [])
+{
     if (buttons.length === 0)
     {
         return document.createElement('div')
@@ -51,9 +53,23 @@ function _createModal(options)
     return modal
 }
 
+function onClose()
+{
+
+}
+function onOpen()
+{
+
+}
+function beforeClose()
+{
+
+}
 
 
-$.modal = function (options) {
+
+$.modal = function (options)
+{
     const ANIMATION_SPEED = 200
     const $modal = _createModal(options)
     let closing = false
