@@ -449,7 +449,7 @@ textarea {
 .card-list .card-image > img {
   display: block;
   width: 100%;
-  opacity: 0;
+  height: 130px;
 }
 .card-list .card-image.is-loaded {
   filter: none;
@@ -458,9 +458,8 @@ textarea {
 .card-list .card {
   display: inline-block;
   width: 24.9%;
-  max-width: 20rem;
   margin: 15px;
-  font-size: 1rem;
+  font-size: 14px;
   text-decoration: none;
   overflow: hidden;
   box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, 0.5);
@@ -491,6 +490,10 @@ textarea {
   display: block;
   width: 600px;
   margin: 0 auto;
+}
+
+b {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
